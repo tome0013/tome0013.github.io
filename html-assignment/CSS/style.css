@@ -12,7 +12,7 @@ footer {
 #my-image {
     box-shadow: 0 0 2px 1px black;
 }
-nav .first-list {
+nav .nav-list {
     list-style: none;
 }
 .hobbies {
@@ -28,7 +28,7 @@ a {
     background-color: lightcyan;
     border-style: solid;
 }
-nav .first-list a:hover,
-nav .first-list a:focus {
+nav .nav-list a:hover,
+nav .nav-list a:focus {
     background-color: cyan;
 }
