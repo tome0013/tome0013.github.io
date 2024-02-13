@@ -1,0 +1,34 @@
+body {
+    font-size: 18px;
+    font-family: helvitica;
+}
+header,
+footer {
+    background-color: teal;
+}
+.site-title {
+    color: white;
+}
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+nav .first-list {
+    list-style: none;
+}
+.hobbies {
+    list-style: square;
+}
+
+.hobbies li:nth-child(odd) {
+    background-color: aquamarine;
+
+}
+a {
+    text-decoration: none;
+    background-color: lightcyan;
+    border-style: solid;
+}
+nav .first-list a:hover,
+nav .first-list a:focus {
+    background-color: cyan;
+}
