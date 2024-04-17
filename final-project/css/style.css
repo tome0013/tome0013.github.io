@@ -55,7 +55,7 @@ table {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-	/* :3 */
+	
 }
 
 /* Global Styles */
@@ -70,7 +70,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: black;
+    background-color: #222;
 	
 }
 
@@ -105,12 +105,12 @@ header {
 }
 
 .h1 {
-    font-size: 100px; /* Adjust font size to make it bigger */
-    position: absolute; /* Set position to absolute */
-    top: 10%; /* Position it vertically centered */
-    left: 10%; /* Position it horizontally centered */
-    z-index: 2; /* Set z-index higher than the image to ensure it's above the image */
-    color: #fff; 
+    font-size: 100px; 
+    position: absolute; 
+    top: 10%; 
+    left: 10%; 
+    z-index: 2; 
+    color: white; 
 	text-align: left;
 	
 }
@@ -170,8 +170,8 @@ header {
 
 .about-content {
     display: flex;
-    flex-direction: row; /* Align items horizontally */
-    align-items: center; /* Center items vertically */
+    flex-direction: row; 
+    align-items: center; 
 }
 
 #aboutus {
@@ -182,7 +182,7 @@ header {
 }
 
 .about-text {
-    flex-grow: 1; /* Allow text to take up remaining space */
+    flex-grow: 1; 
 }
 
 .about-text h2 {
@@ -218,7 +218,7 @@ header {
 .bottom-blocks {
     display: flex;
     justify-content: center;
-    width: 100%; /* Full width */
+    width: 100%; 
     margin-bottom: 20px;
 }
 
@@ -234,8 +234,8 @@ header {
 
 #services .block {
     background-color: #ffe6ac;
-	width: 30%; /* Adjust the width as needed */
-    margin-bottom: 20px; /* Adjust the margin between blocks */
+	width: 30%; 
+    margin-bottom: 20px;
     box-sizing: border-box;
 	margin-bottom: -20px;
 	margin-right: 10px;
@@ -288,12 +288,12 @@ h3 {
 
 /* Our Vision Section */
 .our-vision {
-    position: relative; /* Set position to relative for absolute positioning inside */
+    position: relative; 
 }
 
 .our-vision img {
-    width:  calc(90% - 10px); /* Make the image responsive */
-    height: 300px; /* Maintain the aspect ratio */
+    width:  calc(90% - 10px); 
+    height: 300px; 
 	margin-left: 5%;
 	margin-right: 5%;
 	object-fit: cover;
@@ -303,30 +303,30 @@ h3 {
 .our-vision h2,
 .our-vision p,
 .our-vision .button-7 {
-    position: absolute; /* Set position to absolute */
-    z-index: 1; /* Make sure it's above the image */
+    position: absolute; 
+    z-index: 1; 
 }
 
 .our-vision h2 {
-    top: 20px; /* Adjust the vertical position */
-    left: 10%; /* Adjust the horizontal position */
-    color: white; /* Set text color to white or any color that contrasts with the image */
+    top: 20px; 
+    left: 10%; 
+    color: white; 
 	font-size: 30px;
 	font-weight: bold;
 	margin-top: 30px;
 }
 
 .our-vision p {
-    top: 60px; /* Adjust the vertical position */
-    left: 10%; /* Adjust the horizontal position */
-    color: white; /* Set text color to white */
+    top: 60px; 
+    left: 10%; 
+    color: white; 
 	margin-top: 50px;
 	font-size: 18px;
 }
 
 .our-vision .button-7 {
-    top: 120px; /* Adjust the vertical position */
-    left: 10%; /* Adjust the horizontal position */
+    top: 120px; 
+    left: 10%; 
     background-color: black;
     color: white;
     border-color: #c78c06;
@@ -397,8 +397,8 @@ h3 {
 /* Contact Us Section */
 .contact-us {
 	display: flex;
-    flex-wrap: wrap; /* Allow wrapping to the next line */
-    justify-content: center; /* Space items evenly */
+    flex-wrap: wrap; 
+    justify-content: center; 
     margin-top: 10px;
 }
 
@@ -432,8 +432,8 @@ h3 {
 /* Footer Styles */
 footer {
     background-color: #222;
-    color: #c78c06; /* Text color */
-    padding: 20px; /* Padding inside the footer */
+    color: #c78c06; 
+    padding: 20px; 
     
 }
 
